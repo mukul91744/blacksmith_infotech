@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicone.png">
+    <!-- Google font cdn here -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Font awesome css file here -->
+    <link rel="stylesheet" href="css/all.min.css" type="text/css">
+    <!-- Css file here -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- Responsive File here -->
+    <link rel="stylesheet" href="css/responsive.css" type="text/css">
+    <title>Task</title>
+</head>
+<body>
+    <!-- header [START] -->
+    <header id="header">
+        <div class="container">
+            <div class="content">
+                <div class="header-logo">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/blacksmith.png" alt="BlackSmith" width="191" height="34"></a>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Enquiry</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    <div class="navigation"></div>
+                </nav>
+                <div class="search">
+                    <div class="search-icone">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="inpt-cont">
+                        <div class="serch-inp">
+                            <input type="text" placeholder="search here">
+                            <button class="search-btn">search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header [END] -->
+    <main></main>
+    <!-- Footer [START] -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-cards">
+                    <div class="footer-card">
+                        <div class="footer-card-content">
+                            <div class="footer-logo">
+                                <div class="logo">
+                                    <a href="#"><img src="images/blacksmith.png" alt="BlackSmith" width="191" height="34"></a>
+                                </div>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ad amet dicta itaque eveniet cupiditate repudiandae reprehenderit? Totam.</p>
+                            </div>
+                            <ul class="mail-num">
+                                <li><a href="tel:7623070802"><i class="fa-solid fa-phone"></i> 7623070802</a></li>
+                                <li><a href="mailto:maulik.blacksmithinfotech@gmail.com"><i class="fa-solid fa-envelope"></i> maulik.blacksmithinfotech@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="footer-card-content">
+                            <h2>Useful Links</h2>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Become reseller</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">terms & Condition</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="footer-card-content">
+                            <h2>Our Products</h2>
+                            <ul>
+                                <li><a href="#">Rotomoulding Machine</a></li>
+                                <li><a href="#">Ancilery Machine</a></li>
+                                <li><a href="#">Moulds</a></li>
+                                <li><a href="#">Blow Mouldings</a></li>
+                                <li><a href="#">Shredder</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="footer-card-content social-card">
+                            <h2>Contact US</h2>
+                            <div class="para">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, perferendis?</p>
+                            </div>
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright-wrapper">
+                    <div class="text">
+                        <p>Copyright © 2024 BlackSmith Infotech. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer [END] -->
+   
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+
+        $(document).ready(function(){
+            $(".navigation").click(function(){
+                $("nav").toggleClass("show-content");
+            });
+            $(".search-icone i").click(function(){
+            $(".serch-inp").toggle();
+            $("#header").toggleClass("search-field");
+            })   
+        });
+        const dltr = document.querySelectorAll('.currency-table table tr');
+        const viewtbn = document.querySelector('button.view-btn');
+        viewtbn.addEventListener('click',function(){
+            
+            
+        })
+        
+    </script>
+</body>
+</html>
