@@ -57,6 +57,7 @@ nav ul {
 
 .logo {
     padding: 0 15px;
+    width: 250px;
 }
 .header-logo a img {
     width: 100%;
@@ -190,7 +191,11 @@ padding-right: 5px;
 background-color: #dbdee2;
 padding: 10px 0px;
 }
-
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
 .text p {font-size: 14px;line-height: 20px;font-weight: 100;display: inline-block;}
 /* Footer [END] */
 

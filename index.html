@@ -21,7 +21,7 @@
             <div class="content">
                 <div class="header-logo">
                     <div class="logo">
-                        <a href="index.html"><img src="images/blacksmith.png" alt="BlackSmith" width="191" height="34"></a>
+                        <a href="index.html"><img src="images/blacksmith-engineers.png" alt="Blacksmith-Engineers" width="5488" height="1131"></a>
                     </div>
                 </div>
                 <nav>
@@ -35,7 +35,7 @@
                     </ul>
                     <div class="navigation"></div>
                 </nav>
-                <div class="search">
+                <!-- <div class="search">
                     <div class="search-icone">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
@@ -45,7 +45,7 @@
                             <button class="search-btn">search</button>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </header>
@@ -60,7 +60,7 @@
                         <div class="footer-card-content">
                             <div class="footer-logo">
                                 <div class="logo">
-                                    <a href="#"><img src="images/blacksmith.png" alt="BlackSmith" width="191" height="34"></a>
+                                    <a href="#"><img src="images/blacksmith-engineers.png" alt="Blacksmith-Engineers" width="5488" height="1131"></a>
                                 </div>
                             </div>
                             <div class="para">
@@ -131,6 +131,7 @@
         $(document).ready(function(){
             $(".navigation").click(function(){
                 $("nav").toggleClass("show-content");
+                $('body').toggleClass('scroll');
             });
             $(".search-icone i").click(function(){
             $(".serch-inp").toggle();
